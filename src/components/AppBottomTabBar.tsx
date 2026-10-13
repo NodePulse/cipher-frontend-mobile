@@ -2,15 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import type { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import {
-  Contact,
-  MessageSquareText,
-  Phone,
-  Signature,
-} from 'lucide-react-native';
 import { useTheme } from '../theme';
-import { AppRoutes } from '../navigation/routes';
-import Settings from 'lucide-react-native/icons/settings';
 
 export default function AppBottomTabBar({
   state,
@@ -19,43 +11,6 @@ export default function AppBottomTabBar({
 }: BottomTabBarProps) {
   const insets = useSafeAreaInsets();
   const { theme } = useTheme();
-
-  const renderIcon = (routeName: string, color: string, isFocused: boolean) => {
-    switch (routeName) {
-      case AppRoutes.CHAT:
-        return (
-          <MessageSquareText
-            size={22}
-            color={color}
-            strokeWidth={isFocused ? 2.5 : 2}
-          />
-        );
-
-      case AppRoutes.CALLS:
-        return (
-          <Phone size={22} color={color} strokeWidth={isFocused ? 2.5 : 2} />
-        );
-
-      case AppRoutes.CANVAS:
-        return (
-          <Signature
-            size={22}
-            color={color}
-            strokeWidth={isFocused ? 2.5 : 2}
-          />
-        );
-
-      case AppRoutes.CONTACTS:
-        return (
-          <Contact size={22} color={color} strokeWidth={isFocused ? 2.5 : 2} />
-        );
-
-      case AppRoutes.SETTING:
-        return (
-          <Settings size={22} color={color} strokeWidth={isFocused ? 2.5 : 2} />
-        );
-    }
-  };
 
   return (
     <View
@@ -111,7 +66,8 @@ export default function AppBottomTabBar({
             activeOpacity={0.7}
           >
             <View style={styles.iconContainer}>
-              {renderIcon(route.name, color, isFocused)}
+              {/* {renderIcon(route.name, color, isFocused)} */}
+              {options.tabBarIcon?.({ focused: isFocused, color, size: 22 })}
             </View>
             <Text
               style={[

@@ -72,6 +72,13 @@ export interface TranslationSchema {
     keyFingerprintLabel: string;
     signOutBtn: string;
   };
+  tab: {
+    chat: string;
+    calls: string;
+    canvas: string;
+    contacts: string;
+    settings: string;
+  };
 }
 
 export type NestedKeyOf<ObjectType extends object> = {

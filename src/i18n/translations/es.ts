@@ -70,4 +70,11 @@ export const es: TranslationSchema = {
     keyFingerprintLabel: 'HUELLA DIGITAL DE CLAVE',
     signOutBtn: 'Cerrar Sesión (Volver a AuthStack)',
   },
+  tab: {
+    chat: 'Chat',
+    calls: 'Llamadas',
+    canvas: 'Lienzo',
+    contacts: 'Contactos',
+    settings: 'Configuración',
+  },
 };

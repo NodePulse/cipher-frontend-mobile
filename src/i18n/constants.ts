@@ -63,6 +63,13 @@ export const I18nKeys = {
     KEY_FINGERPRINT_LABEL: 'home.keyFingerprintLabel',
     SIGN_OUT_BTN: 'home.signOutBtn',
   },
+  TAB: {
+    CHAT: 'tab.chat',
+    CALLS: 'tab.calls',
+    CANVAS: 'tab.canvas',
+    CONTACTS: 'tab.contacts',
+    SETTINGS: 'tab.settings',
+  },
 } as const;
 
 export type I18nKeysType = typeof I18nKeys;

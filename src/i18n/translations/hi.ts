@@ -70,4 +70,11 @@ export const hi: TranslationSchema = {
     keyFingerprintLabel: 'कुंजी फ़िंगरप्रिंट',
     signOutBtn: 'साइन आउट (ऑथस्टैक पर वापस जाएँ)',
   },
+  tab: {
+    chat: 'चैट',
+    calls: 'कॉल',
+    canvas: 'कैनवास',
+    contacts: 'संपर्क',
+    settings: 'सेटिंग्स',
+  },
 };

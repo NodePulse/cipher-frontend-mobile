@@ -70,4 +70,11 @@ export const de: TranslationSchema = {
     keyFingerprintLabel: 'SCHLÜSSEL-FINGERABDRUCK',
     signOutBtn: 'Abmelden (Zurück zum AuthStack)',
   },
+  tab: {
+    chat: 'Chat',
+    calls: 'Anrufe',
+    canvas: 'Leinwand',
+    contacts: 'Kontakte',
+    settings: 'Einstellungen',
+  },
 };
