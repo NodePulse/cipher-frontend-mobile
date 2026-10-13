@@ -1,0 +1,73 @@
+import type { TranslationSchema } from '../types';
+
+export const de: TranslationSchema = {
+  common: {
+    getStarted: 'Loslegen',
+    alreadyHaveAccount: 'Ich habe bereits ein Konto',
+    signIn: 'Anmelden',
+    signUp: 'Registrieren',
+    save: 'Speichern',
+    cancel: 'Abbrechen',
+    loading: 'Wird geladen...',
+  },
+  splash: {
+    appName: 'Cipher',
+    tagline: 'Standardmäßig privat',
+    encryptedNode: 'Ende-zu-Ende-verschlüsselter Knoten',
+    unlockVault: 'Tresor entsperren',
+  },
+  onboarding: {
+    slide1Badge: 'Absolute Privatsphäre',
+    slide1Headline: 'Ihre Nachrichten gehören Ihnen allein',
+    slide1Desc:
+      'Nicht einmal die Server können Ihre Unterhaltungen lesen. Wirklich private Nachrichtenübermittlung basierend auf modernster Kryptographie.',
+    slide2Badge: 'Zero-Knowledge-Sicherheit',
+    slide2Headline: 'Schlüssel auf Ihrem Gerät generiert',
+    slide2Desc:
+      'Kryptografische Ratschen stellen sicher, dass jede einzelne Nachricht mit einem einzigartigen Schlüssel versiegelt ist.',
+    slide3Badge: 'Dezentrales Netzwerk',
+    slide3Headline: 'Keine zentralen Metadaten gespeichert',
+    slide3Desc:
+      'Keine Kontaktsammlung, kein Tracking und null digitale Spuren auf Servern.',
+    getStarted: 'Loslegen',
+    alreadyHaveAccount: 'Ich habe bereits ein Konto',
+  },
+  auth: {
+    loginTitle: 'Cipher',
+    loginSubtitle: 'Geben Sie Ihre Zugangsdaten ein, um fortzufahren',
+    emailLabel: 'E-Mail oder Cipher-ID',
+    emailPlaceholder: 'agent@cipher.sec',
+    passphraseLabel: 'Passphrase',
+    passphrasePlaceholder: '••••••••••••',
+    signInBtn: 'Anmelden',
+    quickDemoBtn: '⚡ Schnelle Demo-Anmeldung',
+    noIdentityPrompt: 'Haben Sie noch keine Identität?',
+    createIdentityLink: 'Identität erstellen',
+    registerTitle: 'Neue Cipher-Identität',
+    registerSubtitle:
+      'Kryptografische Schlüsselpaare werden lokal auf Ihrem Gerät generiert',
+    handleLabel: 'Benutzername / Vollständiger Name',
+    handlePlaceholder: 'z.B. Alex Vance',
+    emailAddressLabel: 'E-Mail-Adresse',
+    masterPassphraseLabel: 'Hauptpassphrase',
+    confirmPassphraseLabel: 'Passphrase bestätigen',
+    zeroKnowledgeNotice:
+      'Zero-Knowledge-Architektur. Unverschlüsselte Daten werden niemals an Server übertragen.',
+    generateKeysBtn: 'Schlüssel generieren & Registrieren',
+    alreadyRegisteredPrompt: 'Bereits registriert?',
+    signInLink: 'Anmelden',
+  },
+  home: {
+    authenticatedBadge: 'AUTHENTIFIZIERTER STAPEL',
+    appTitle: 'CIPHER SICHER',
+    appearanceSection: 'Erscheinungsbild',
+    currentlyLabel: 'Aktuell',
+    languageSection: 'Sprache / Language',
+    sessionStatusLabel: 'Sitzungsstatus:',
+    sessionStatusValue: 'Aktiv & Verifiziert',
+    encryptionLabel: 'Verschlüsselung:',
+    encryptionValue: 'AES-256-GCM / E2EE',
+    keyFingerprintLabel: 'SCHLÜSSEL-FINGERABDRUCK',
+    signOutBtn: 'Abmelden (Zurück zum AuthStack)',
+  },
+};

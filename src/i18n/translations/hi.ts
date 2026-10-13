@@ -1,0 +1,73 @@
+import type { TranslationSchema } from '../types';
+
+export const hi: TranslationSchema = {
+  common: {
+    getStarted: 'शुरू करें',
+    alreadyHaveAccount: 'मेरे पास पहले से एक खाता है',
+    signIn: 'साइन इन करें',
+    signUp: 'साइन अप करें',
+    save: 'सहेजें',
+    cancel: 'रद्द करें',
+    loading: 'लोड हो रहा है...',
+  },
+  splash: {
+    appName: 'Cipher',
+    tagline: 'डिफ़ॉल्ट रूप से निजी',
+    encryptedNode: 'एंड-टू-एंड एन्क्रिप्टेड नोड',
+    unlockVault: 'वॉल्ट अनलॉक करें',
+  },
+  onboarding: {
+    slide1Badge: 'पूर्ण गोपनीयता',
+    slide1Headline: 'आपके संदेश केवल आपके हैं',
+    slide1Desc:
+      'सर्वर भी आपकी बातचीत नहीं पढ़ सकते। अत्याधुनिक क्रिप्टोग्राफी पर निर्मित वास्तव में निजी मैसेजिंग का अनुभव करें।',
+    slide2Badge: 'शून्य-ज्ञान सुरक्षा',
+    slide2Headline: 'कुंजियाँ आपके डिवाइस पर जनरेट होती हैं',
+    slide2Desc:
+      'क्रिप्टोग्राफिक रैचेट यह सुनिश्चित करते हैं कि प्रत्येक संदेश एक अद्वितीय कुंजी से सील किया गया हो।',
+    slide3Badge: 'विकेंद्रीकृत नेटवर्क',
+    slide3Headline: 'कोई केंद्रीय मेटाडेटा नहीं रखा जाता',
+    slide3Desc:
+      'किसी भी सर्वर पर कोई संपर्क संकलन नहीं, कोई ट्रैकिंग नहीं, और कोई डिजिटल पदचिह्न नहीं।',
+    getStarted: 'शुरू करें',
+    alreadyHaveAccount: 'मेरे पास पहले से एक खाता है',
+  },
+  auth: {
+    loginTitle: 'Cipher',
+    loginSubtitle: 'डिक्रिप्ट करने और जारी रखने के लिए क्रेडेंशियल दर्ज करें',
+    emailLabel: 'ईमेल या सिफर आईडी',
+    emailPlaceholder: 'agent@cipher.sec',
+    passphraseLabel: 'पासफ़्रेज़',
+    passphrasePlaceholder: '••••••••••••',
+    signInBtn: 'साइन इन करें',
+    quickDemoBtn: '⚡ त्वरित डेमो साइन इन',
+    noIdentityPrompt: 'क्या आपके पास सुरक्षित पहचान नहीं है?',
+    createIdentityLink: 'पहचान बनाएँ',
+    registerTitle: 'नई सिफर पहचान',
+    registerSubtitle:
+      'क्रिप्टोग्राफिक कुंजी जोड़े आपके डिवाइस पर स्थानीय रूप से बनाए जाएंगे',
+    handleLabel: 'ऑपरेटिव हैंडल / पूरा नाम',
+    handlePlaceholder: 'उदा. Alex Vance',
+    emailAddressLabel: 'ईमेल पता',
+    masterPassphraseLabel: 'मास्टर पासफ़्रेज़',
+    confirmPassphraseLabel: 'पासफ़्रेज़ की पुष्टि करें',
+    zeroKnowledgeNotice:
+      'शून्य-ज्ञान आर्किटेक्चर। कोई भी अनएन्क्रिप्टेड डेटा हमारे सर्वर पर कभी नहीं भेजा जाता है।',
+    generateKeysBtn: 'कुंजियाँ बनाएँ और रजिस्टर करें',
+    alreadyRegisteredPrompt: 'पहले से पंजीकृत हैं?',
+    signInLink: 'साइन इन करें',
+  },
+  home: {
+    authenticatedBadge: 'प्रमाणित स्टैक',
+    appTitle: 'सिफर सुरक्षित',
+    appearanceSection: 'दिखावट मोड',
+    currentlyLabel: 'वर्तमान',
+    languageSection: 'भाषा / Language',
+    sessionStatusLabel: 'सत्र स्थिति:',
+    sessionStatusValue: 'सक्रिय और सत्यापित',
+    encryptionLabel: 'एन्क्रिप्शन:',
+    encryptionValue: 'AES-256-GCM / E2EE',
+    keyFingerprintLabel: 'कुंजी फ़िंगरप्रिंट',
+    signOutBtn: 'साइन आउट (ऑथस्टैक पर वापस जाएँ)',
+  },
+};

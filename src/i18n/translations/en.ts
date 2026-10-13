@@ -1,0 +1,73 @@
+import type { TranslationSchema } from '../types';
+
+export const en: TranslationSchema = {
+  common: {
+    getStarted: 'Get started',
+    alreadyHaveAccount: 'I already have an account',
+    signIn: 'Sign In',
+    signUp: 'Sign Up',
+    save: 'Save',
+    cancel: 'Cancel',
+    loading: 'Loading...',
+  },
+  splash: {
+    appName: 'Cipher',
+    tagline: 'Private by default',
+    encryptedNode: 'End-to-End Encrypted Node',
+    unlockVault: 'Unlock Vault',
+  },
+  onboarding: {
+    slide1Badge: 'Absolute Privacy',
+    slide1Headline: 'Your messages are yours alone',
+    slide1Desc:
+      'Not even the servers can read your conversations. Experience truly private messaging built on state-of-the-art cryptography.',
+    slide2Badge: 'Zero-Knowledge Security',
+    slide2Headline: 'Keys generated on your device',
+    slide2Desc:
+      'Cryptographic ratchets ensure every single message is sealed with a unique, forward-secret key.',
+    slide3Badge: 'Decentralized Network',
+    slide3Headline: 'No central metadata retained',
+    slide3Desc:
+      'No contact harvesting, no tracking, and zero digital footprints left behind on any server.',
+    getStarted: 'Get started',
+    alreadyHaveAccount: 'I already have an account',
+  },
+  auth: {
+    loginTitle: 'Cipher',
+    loginSubtitle: 'Enter your credentials to decrypt and continue',
+    emailLabel: 'Email or Cipher ID',
+    emailPlaceholder: 'agent@cipher.sec',
+    passphraseLabel: 'Passphrase',
+    passphrasePlaceholder: '••••••••••••',
+    signInBtn: 'Sign In',
+    quickDemoBtn: '⚡ Quick Demo Sign In',
+    noIdentityPrompt: "Don't have a secure identity?",
+    createIdentityLink: 'Create Identity',
+    registerTitle: 'New Cipher Identity',
+    registerSubtitle:
+      'Cryptographic key pairs will be generated locally on your device',
+    handleLabel: 'Operative Handle / Full Name',
+    handlePlaceholder: 'e.g. Alex Vance',
+    emailAddressLabel: 'Email Address',
+    masterPassphraseLabel: 'Master Passphrase',
+    confirmPassphraseLabel: 'Confirm Passphrase',
+    zeroKnowledgeNotice:
+      'Zero-knowledge architecture. No unencrypted data is ever transmitted to our servers.',
+    generateKeysBtn: 'Generate Keys & Register',
+    alreadyRegisteredPrompt: 'Already registered?',
+    signInLink: 'Sign In',
+  },
+  home: {
+    authenticatedBadge: 'AUTHENTICATED STACK',
+    appTitle: 'CIPHER SECURE',
+    appearanceSection: 'Appearance Mode',
+    currentlyLabel: 'Currently',
+    languageSection: 'Language / Idioma',
+    sessionStatusLabel: 'Session Status:',
+    sessionStatusValue: 'Active & Verified',
+    encryptionLabel: 'Encryption:',
+    encryptionValue: 'AES-256-GCM / E2EE',
+    keyFingerprintLabel: 'KEY FINGERPRINT',
+    signOutBtn: 'Sign Out (Return to AuthStack)',
+  },
+};

@@ -1,0 +1,73 @@
+import type { TranslationSchema } from '../types';
+
+export const fr: TranslationSchema = {
+  common: {
+    getStarted: 'Commencer',
+    alreadyHaveAccount: "J'ai déjà un compte",
+    signIn: 'Se Connecter',
+    signUp: "S'inscrire",
+    save: 'Enregistrer',
+    cancel: 'Annuler',
+    loading: 'Chargement...',
+  },
+  splash: {
+    appName: 'Cipher',
+    tagline: 'Privé par défaut',
+    encryptedNode: 'Nœud Chiffré de Bout en Bout',
+    unlockVault: 'Déverrouiller le Coffre',
+  },
+  onboarding: {
+    slide1Badge: 'Confidentialité Absolue',
+    slide1Headline: 'Vos messages vous appartiennent',
+    slide1Desc:
+      'Même les serveurs ne peuvent pas lire vos conversations. Messagerie véritablement privée bâtie sur une cryptographie de pointe.',
+    slide2Badge: 'Sécurité Zéro-Connaissance',
+    slide2Headline: 'Clés générées sur votre appareil',
+    slide2Desc:
+      'Les cliquets cryptographiques garantissent que chaque message est scellé avec une clé unique inviolable.',
+    slide3Badge: 'Réseau Décentralisé',
+    slide3Headline: 'Aucune métadonnée conservée',
+    slide3Desc:
+      'Aucune collecte de contacts, aucun suivi et zéro empreinte numérique sur aucun serveur.',
+    getStarted: 'Commencer',
+    alreadyHaveAccount: "J'ai déjà un compte",
+  },
+  auth: {
+    loginTitle: 'Cipher',
+    loginSubtitle: 'Entrez vos identifiants pour déchiffrer et continuer',
+    emailLabel: 'Email ou ID Cipher',
+    emailPlaceholder: 'agent@cipher.sec',
+    passphraseLabel: 'Phrase secrète',
+    passphrasePlaceholder: '••••••••••••',
+    signInBtn: 'Se Connecter',
+    quickDemoBtn: '⚡ Démo Connexion Rapide',
+    noIdentityPrompt: "Vous n'avez pas d'identité sécurisée ?",
+    createIdentityLink: 'Créer une Identité',
+    registerTitle: 'Nouvelle Identité Cipher',
+    registerSubtitle:
+      'Les paires de clés cryptographiques seront générées localement',
+    handleLabel: 'Pseudonyme / Nom Complet',
+    handlePlaceholder: 'ex. Alex Vance',
+    emailAddressLabel: 'Adresse Email',
+    masterPassphraseLabel: 'Phrase Secrète Maîtresse',
+    confirmPassphraseLabel: 'Confirmer la Phrase Secrète',
+    zeroKnowledgeNotice:
+      'Architecture zéro-connaissance. Aucune donnée non chiffrée ne transite sur nos serveurs.',
+    generateKeysBtn: 'Générer les Clés & Créer',
+    alreadyRegisteredPrompt: 'Déjà inscrit ?',
+    signInLink: 'Se Connecter',
+  },
+  home: {
+    authenticatedBadge: 'PILE AUTHENTIFIÉE',
+    appTitle: 'CIPHER SÉCURISÉ',
+    appearanceSection: "Mode d'Apparence",
+    currentlyLabel: 'Actuellement',
+    languageSection: 'Langue / Language',
+    sessionStatusLabel: 'Statut de Session :',
+    sessionStatusValue: 'Actif & Vérifié',
+    encryptionLabel: 'Chiffrement :',
+    encryptionValue: 'AES-256-GCM / E2EE',
+    keyFingerprintLabel: 'EMPREINTE DE CLÉ',
+    signOutBtn: 'Déconnexion (Retour à AuthStack)',
+  },
+};
