@@ -1,4 +1,4 @@
-package com.frontendmobile
+package com.cipher
 
 import android.app.Application
 import com.facebook.react.PackageList

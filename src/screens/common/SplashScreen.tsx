@@ -27,7 +27,7 @@ export const SplashScreen: React.FC<
     const pulse = Animated.loop(
       Animated.sequence([
         Animated.timing(pulseAnim, {
-          toValue: 0.35,
+          toValue: 0.6,
           duration: 900,
           useNativeDriver: true,
         }),
@@ -96,6 +96,9 @@ export const SplashScreen: React.FC<
                 {
                   backgroundColor: theme.cyanDot,
                   opacity: pulseAnim,
+                  shadowColor: theme.cyanDot,
+                  shadowOffset: { width: 4, height: 4 },
+                  shadowRadius: 5,
                   transform: [
                     {
                       scale: pulseAnim.interpolate({
@@ -118,12 +121,7 @@ export const SplashScreen: React.FC<
             onPress={handleUnlock}
             activeOpacity={0.88}
           >
-            <Text
-              style={[
-                styles.unlockButtonText,
-                { color: theme.brandBlue },
-              ]}
-            >
+            <Text style={[styles.unlockButtonText, { color: theme.brandBlue }]}>
               {t(I18nKeys.SPLASH.UNLOCK_VAULT)}
             </Text>
             <ArrowRight size={20} color={theme.brandBlue} />
